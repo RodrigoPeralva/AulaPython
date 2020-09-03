@@ -78,3 +78,17 @@ nota_2, peso_2 = input("Escreva sua 2 nota e o seu peso separados por ',':").spl
 media_ponderada = (nota_1 + nota_2)/(peso_1 + peso_2)
 
 print("A sua media ponderada é: "+ media_ponderada)
+
+# 6 questão
+
+a = int(input("Digite um valor para A: "))
+b = int(input("Digite um valor para B: "))
+c = int(input("Digite um valor para C: "))
+
+delta = b**2 - 4*a*c
+
+x1 = (-b + (delta*(1/2)))/(2*a)
+
+x2 = (-b - (delta*(1/2)))/(2*a)
+
+print("O valor de x1 {} e o valor de x2 {}".format(x1,x2))
