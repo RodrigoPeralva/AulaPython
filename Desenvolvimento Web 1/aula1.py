@@ -66,7 +66,7 @@ nota_1 = float(nota_1)
 nota_2 = float(nota_2)
 nota_3 = float(nota_3)
 
-media = (nota_1 + nota_2 + nota_3)/2
+media = (nota_1 + nota_2 + nota_3)/3
 
 print("Sua media é " + media)
 
@@ -80,7 +80,6 @@ media_ponderada = (nota_1 + nota_2)/(peso_1 + peso_2)
 print("A sua media ponderada é: "+ media_ponderada)
 
 # 6 questão
-
 a = int(input("Digite um valor para A: "))
 b = int(input("Digite um valor para B: "))
 c = int(input("Digite um valor para C: "))
